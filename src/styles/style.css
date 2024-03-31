@@ -1,0 +1,224 @@
+.home {
+    height: 550px;
+    background: rgb(18, 9, 28);
+    background: linear-gradient(180deg, rgba(18, 9, 28, 1) 41%, rgba(111, 0, 61, 1) 100%);
+}
+.nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.insidenav, .tobehide{
+    display: flex;
+}
+.mobilenav{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.inmob{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.navcontent {
+    width: 100%;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.name {
+    font-size: 80px;
+}
+
+.second {
+    margin-top: 90px;
+    margin-bottom: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.about {
+    width: 580px;
+    background-color: #190e23;
+    color: #fff;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 30px;
+}
+
+.find {
+    width: 580px;
+    background: rgb(39, 0, 35);
+    background: linear-gradient(128deg, rgba(39, 0, 35, 0.9865196078431373) 27%, rgba(111, 30, 79, 1) 100%);
+    color: #fff;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 30px;
+}
+.logoname{
+    text-decoration: none;
+}
+.logoname:hover{
+    cursor: pointer;
+    width: fit-content;
+}
+.font{
+    font-size: 18px;
+    color: #fff;
+}
+.back{
+    color: #fff;
+}
+.backf{
+    color: #000;
+}
+.tog{
+    display: none;
+}
+.skills{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.skillcontent{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bar{
+    width: 100%;
+    height: 8px;
+    background-color: rgb(231, 152, 195);
+    border-radius: 3px;
+}
+.barh{
+    width: 100%;
+}
+.inbar{
+    height: 8px;
+    background-color: rgba(111, 0, 61, 1);
+    border-radius: 3px;
+}
+.homethird {
+    width: 100%;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.eightleft,
+.eightright,
+.eightcenter {
+    width: 370px;
+    height: 200px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    transition: all ease 0.30s;
+}
+
+.eightcenter:hover,
+.eightleft:hover,
+.eightright:hover {
+    /* box-shadow: 0 0 40px rgba(47, 47, 47, 0.15); */
+    box-shadow: rgba(68, 53, 74, 0.1) 0px 0px 55px;
+}
+.contact{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lrcontact{
+    width: 950px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 30px;
+    background: rgb(39, 0, 35);
+    background: linear-gradient(128deg, rgba(39, 0, 35, 0.9865196078431373) 27%, rgba(111, 30, 79, 1) 100%);
+    color: rgba(243, 243, 243, 0.905);
+}
+.leftcontact{
+    width: 400px;
+}
+.rightcontact{
+    width: 450px;
+}
+.leftcon{
+    display: flex;
+    flex-direction: column;
+}
+.coninput{
+    outline: none;
+    background: none;
+    border: none;
+    color: rgba(243, 243, 243, 0.905);
+    border-bottom: 1px solid rgba(243, 243, 243, 0.905);
+}
+.but{
+    padding: 10px;
+    border: none;
+    font-size: 20px;
+    margin-top: 10px;
+    border-radius: 8px;
+    font-weight: 500;
+}
+.logowid{
+    width: 50%;
+}
+
+
+/*Mobile View*/
+@media (max-width: 900px) {
+    .home {
+        width: 100%;
+        height: 400px;
+    }
+
+    .navcontent {
+        width: 100%;
+        height: 250px;
+    }
+
+    .name {
+        font-size: 43px;
+    }
+    .second {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .tobehide{
+        display: none;
+    }
+    .tog{
+        display: block;
+    }
+    .skillcontent, .logowid{
+        width: 100%;
+    }
+    .barh, .bar{
+        width: 90%;
+    }
+    .lrcontact{
+        width: 350px;
+    }
+    .leftcontact, .rightcontact{
+        width: 300px;
+    }
+
+}
