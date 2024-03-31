@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "//PraveenKumar004.github.io/Portfolio/static/css/main.3ccff282.css",
+    "main.js": "//PraveenKumar004.github.io/Portfolio/static/js/main.f461cddc.js",
+    "static/media/Resume.pdf": "//PraveenKumar004.github.io/Portfolio/static/media/Resume.e89e46e7db29d3b23300.pdf",
+    "index.html": "//PraveenKumar004.github.io/Portfolio/index.html",
+    "main.3ccff282.css.map": "//PraveenKumar004.github.io/Portfolio/static/css/main.3ccff282.css.map",
+    "main.f461cddc.js.map": "//PraveenKumar004.github.io/Portfolio/static/js/main.f461cddc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ccff282.css",
+    "static/js/main.f461cddc.js"
+  ]
+}
