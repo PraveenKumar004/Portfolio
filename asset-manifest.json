@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "//PraveenKumar004.github.io/Portfolio/static/css/main.3ccff282.css",
-    "main.js": "//PraveenKumar004.github.io/Portfolio/static/js/main.f461cddc.js",
-    "static/media/Resume.pdf": "//PraveenKumar004.github.io/Portfolio/static/media/Resume.e89e46e7db29d3b23300.pdf",
-    "index.html": "//PraveenKumar004.github.io/Portfolio/index.html",
-    "main.3ccff282.css.map": "//PraveenKumar004.github.io/Portfolio/static/css/main.3ccff282.css.map",
-    "main.f461cddc.js.map": "//PraveenKumar004.github.io/Portfolio/static/js/main.f461cddc.js.map"
+    "main.css": "/Portfolio/static/css/main.d4a5f6fe.css",
+    "main.js": "/Portfolio/static/js/main.b94ef050.js",
+    "static/media/Resume.pdf": "/Portfolio/static/media/Resume.e89e46e7db29d3b23300.pdf",
+    "index.html": "/Portfolio/index.html",
+    "main.d4a5f6fe.css.map": "/Portfolio/static/css/main.d4a5f6fe.css.map",
+    "main.b94ef050.js.map": "/Portfolio/static/js/main.b94ef050.js.map"
   },
   "entrypoints": [
-    "static/css/main.3ccff282.css",
-    "static/js/main.f461cddc.js"
+    "static/css/main.d4a5f6fe.css",
+    "static/js/main.b94ef050.js"
   ]
 }
