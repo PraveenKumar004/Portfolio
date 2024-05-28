@@ -41,7 +41,7 @@ function TopNavbar() {
           <div className='insidenav'>
             <Navbar.Brand href="#home" className='m-3 p-2 back h6' >Praveen Kumar</Navbar.Brand>
             <div className='tobehide'>
-              <Nav.Link href="/home" className='m-3 p-2 back'>Home</Nav.Link>
+              <Nav.Link href="#home" className='m-3 p-2 back'>Home</Nav.Link>
               <Nav.Link href="#about" className='m-3 p-2 back'>About</Nav.Link>
               <Nav.Link href="#skills" className='m-3 p-2 back'>Skills</Nav.Link>
               <Nav.Link href="#interest" className='m-3 p-2 back'>Interests</Nav.Link>
